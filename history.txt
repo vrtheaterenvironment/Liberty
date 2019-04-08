@@ -1,0 +1,413 @@
+    1  ip a
+    2  exit
+    3  showtdown
+    4  shwtdown
+    5  shdown
+    6  poweroff
+    7  um update
+    8  yum update
+    9  nmtui
+   10  ip a
+   11  nmtui
+   12  ip a
+   13  nmtui
+   14  ip a
+   15  nmtui
+   16  ip a
+   17  nmtui
+   18  ip a
+   19  yum update
+   20  yum groupinstall -y "KDE Plasma Workspace"
+   21  yum groupinstall -y "KDE Plasma Workspaces"
+   22  yum install -y kde-l10n-Japanese
+   23  systemctl set-default graphical.target
+   24  reboot
+   25  vim /etc/ntp.conf 
+   26  systemctl start ntpd
+   27  systemctl enable ntpd
+   28  ntpq -p
+   29  vim /etc/fstab 
+   30  mkdir /home01 /home02
+   31  ln -s /home/ /home01/other
+   32  ln -s /home/ /home01/staff
+   33  ln -s /home/ /home01/student
+   34  ln -s /home/ /home01/teacher
+   35  ln -s /home/ /home02/other
+   36  ln -s /home/ /home02/staff
+   37  ln -s /home/ /home02/st
+   38  ln -s /home/ /home02/teacher
+   39  vim /etc/selinux/config 
+   40  reboot
+   41  yum install -y openldap-clients
+   42  vim  /etc/openldap/ldap.conf 
+   43  ldapsearch -x "j14024113"
+   44  yum install -y nss-pam-ldaped
+   45  yum install -y nss-pam-ldapd
+   46  vim /etc/nsswitch.conf
+   47  vim /etc/nslcd.conf 
+   48  systemctl start nslcd.service
+   49  systemctl enable nslcd.service
+   50  getent passwd
+   51  vim /etc/pam.d/system-auth
+   52  vim /etc/pam.d/password-auth
+   53  vim /etc/pam.d/su
+   54  vim /etc/pam.d/su-l 
+   55  vim /etc/dconf/profile/gdm
+   56  vim /etc/dconf/db/gdm.d/00-login-screen
+   57  dconf update
+   58  ls home01
+   59  ls /home01/
+   60  ls /home01/other/
+   61  yum install -y java-1.8.0-openjdk-devel
+   62  cd ダウンロード
+   63  bash netbeans-8.2-javase-linux.sh 
+   64  vim /usr/local/netbeans-8.2/etc/netbeans.conf 
+   65  cd ダウンロード
+   66  cp 3dxware-linux-v1-8-0.x86_64.tar.gz  /tmp
+   67  cd
+   68  cd/tmp
+   69  cd /tmp
+   70  tar xfz 3dxware-linux-v1-8-0.x86_64.tar.gz install-3dxunix.sh
+   71  sh install-3dxunix.sh 
+   72  /etc/3DxWare/daemon/3dxsrv -d usb
+   73  yum install -y motif-devel.x86_64 
+   74  cd /usr/lib54
+   75  cd /usr/lib64
+   76  ln -n -s libXm.so.4 libXm.so.3
+   77  /etc/3DxWare/daemon/3dxsrv -d usb
+   78  yum install -y xorg-x11-fonts-75dpi.noarch 
+   79  /etc/3DxWare/daemon/3dxsrv -d usb
+   80  cd
+   81  vim 3dmouse.c
+   82  gcc 3dmouse.c -o 3dmouse
+   83  yum install -y gcc-c++.x86_64 
+   84  gcc 3dmouse.c -o 3dmouse
+   85  cp 3dmouse /usr/local/bin/3dmouse
+   86  vim /etc/sudoers
+   87  vim /etc/sudoers.d/
+   88  visudo
+   89  vim /etc/profile.d/3dmouse.sh
+   90  vim /etc/3DxWare/default.scg 
+   91  cd ダウンロード
+   92  cd S
+   93  ls
+   94  tar xfz SpacePilot.tar.gz 
+   95  cd SpacePilot/
+   96  ls
+   97  cd SpacePilotServer/
+   98  ls
+   99  make
+  100  cp server /usr/local/bin/SpacePilotServer
+  101  cd
+  102  SpacePilotServer 
+  103  vim /etc/3DxWare/default.scg 
+  104  vim /etc/profile.d/3dmouse.sh
+  105  SpacePilotServer 
+  106  cat .kde/share/apps/kscreen/c92fbb5f9af642cf82cb98754395972b 
+  107  vim /etc/profile.d/00-display.sh
+  108  rm -rf .kde
+  109  exit
+  110  reboot
+  111  mkdir /usr/local/pbl
+  112  cp demo/device.cfg /usr/local/pbl/
+  113  vim demo/device.cfg 
+  114  cp demo/device.cfg /usr/local/pbl/
+  115  vim demo/device.cfg 
+  116  cp demo/device.cfg /usr/local/pbl/
+  117  vim /usr/local/pbl/device.cfg 
+  118  yum install -y svn
+  119  cp /home01/student/sagaDemo21/demo/PBL2018/ 
+  120  cp /home01/student/sagaDemo21/demo/PBL2018/ ~/
+  121  cp /home01/student/sagaDemo21/demo/PBL2018 ~/
+  122  cp -rf /home01/student/sagaDemo21/demo/PBL2018 ~/
+  123  cp -rf /home01/student/sagaDemo21/demo/PBL2018 /home01/student/j14024113/
+  124  gsettings get org.gnome.desktop.media-handling automount
+  125  exit
+  126  ls
+  127  ls 
+  128  ls /etc/
+  129  gsettings get org.gnome.desktop.media-handling automount
+  130  gsettings get org.k
+  131  /etc/kde/env/
+  132  log
+  133  exit 
+  134  vim /etc/pam.d/system-auth
+  135  vim /etc/pam.d/password-auth
+  136  systemctl restart nslcd.service 
+  137  vim /usr/local/pbl/device.cfg 
+  138  cd /home/sagaDemo13/
+  139  ls
+  140  chown -R sagaDemo13:sagalab VRSkelton/
+  141  exit
+  142  systemctl stop firewalld.service
+  143  ip a
+  144  su
+  145  cp -r /home01/student/sagaDemo31/PBL_GP02/ ./demo/
+  146  cd demo/
+  147  ls
+  148  ls -la
+  149  chown -R sagaDemo13:sagaDemo13 PBL_GP02/
+  150  chown -R sagaDemo13:sagalab PBL_GP02/
+  151  ls -la
+  152  exit
+  153  systemctl stop firewalld
+  154  cd ~/Desktop
+  155  exit
+  156  systemctl stop firewalld
+  157  exit
+  158  cp -r /home02/student/j14024113/GP90
+  159  cp -r /home02/student/j14024113/GP90 .
+  160  chown sagaDemo13:sagalab GP90/
+  161  ls -l
+  162  chown -R sagaDemo13:sagalab GP90/
+  163  cp -r /home01/student/j14024009/pbl2018_report/GP90
+  164  cp -r /home01/student/j14024009/pbl2018_report/GP90 .
+  165  chown -R sagaDemo13:sagalab GP90/
+  166  vim /home01/student/sagaDemo33/OpenCanpus2016/BlueGrotto/src/jp/sagalab/bluegrotto/jogl/OculusView.java 
+  167  exit
+  168  id j14024009
+  169  ip a
+  170  exit
+  171  cp -r /home01/student/j14024009/demo/projects/ .
+  172  ls
+  173  SpacePilotServer 
+  174  systemctl stop firewalld
+  175  exit
+  176  cp -r /home01/student/sagaDemo33/OpenCanpus2016/ /home01/student/sagaDemo10/ 
+  177  cp -r /home01/student/sagaDemo33/OpenCanpus2016/ /home01/student/sagaDemo11/ 
+  178  cp -r /home01/student/sagaDemo33/OpenCanpus2016/ /home01/student/sagaDemo12/ 
+  179  cp -r /home01/student/sagaDemo33/OpenCanpus2016/ /home01/student/sagaDemo14/ 
+  180  ip a
+  181  cp -r /home01/student/sagaDemo33/OpenCanpus2016/ /home01/student/sagaDemo13/ 
+  182  chown -R sagaDemo13:sagalab /home01/student/sagaDemo13/OpenCanpus2016/
+  183  yum -y update 
+  184  yum -y install kernel-devel kernel-headers gcc make git pciutils tmux 
+  185  lsmod | grep nouveau 
+  186  mv /boot/initramfs-$(uname -r).img /boot/initramfs-$(uname -r)-nouveau.img 
+  187  dracut --omit-drivers nouveau /boot/initramfs-$(uname -r).img $(uname -r) 
+  188  echo 'blacklist nouveau' >> /etc/modprobe.d/modprobe.conf 
+  189  echo 'blacklist nouveau' >> /etc/modprobe.d/nouveau_blacklist.conf 
+  190  reboot 
+  191  dracut --omit-drivers nouveau /boot/initramfs-$(uname -r).img $(uname -r)
+  192  mv /boot/initramfs-$(uname -r).img /boot/initramfs-$(uname -r)-nouveau.img 
+  193  dracut --omit-drivers nouveau /boot/initramfs-$(uname -r).img $(uname -r)
+  194  reboot
+  195  init 3 
+  196  sudo bash NVIDIA-Linux-x86_64-418.43.run 
+  197  mokutil --import /usr/share/nvidia/nvidia-modsign-crt-1751DD5E.der
+  198  reboot
+  199  cp xorg.conf xorg.conf.backup
+  200  vi xorg.conf
+  201  emacs -nw xorg.conf
+  202  gedit
+  203  vi xorg.conf
+  204  cat xorg.conf
+  205  reboot
+  206  cd /etc/X11
+  207  ls -l
+  208  cp xorg.conf.backup xorg.conf
+  209  ls -l
+  210  reboot
+  211  nvidia-settings
+  212  cp /home01/student/sagaDemo13/ダウンロード/xorg.conf /etc/X11/
+  213  ls -l
+  214  reboot
+  215  pwd
+  216  yum install fxload libusb-dev
+  217  cd ./LibertyInstall/polhemusliberty-1.0.0/src/
+  218  ls
+  219  cd ../firmware_load/
+  220  ls
+  221  ./install_udev_firmware.sh
+  222  ls ./install_udev_firmware.sh 
+  223  ls -a ./install_udev_firmware.sh 
+  224  ls -al ./install_udev_firmware.sh 
+  225  chmod +x ./install_udev_firmware.sh 
+  226  ./install_udev_firmware.sh
+  227  yum install udevcontrol
+  228  yum search udevcontrol
+  229  yum search fxload
+  230  yum install fxload libusb-dev
+  231  yum search libusb-dev
+  232  ./install_udev_firmware.sh
+  233  ls /lib/firmware/polhemus/
+  234  udevcontrol
+  235  yum search udevcontrol
+  236  udev
+  237  yum search libusb
+  238  yum install libusb1.0
+  239  yum install libusb1
+  240  yum install fxload
+  241  yum search udev
+  242  yum search all udev
+  243  yum install udev
+  244   /sbin/start_udev 
+  245  ls /sbin
+  246  udevadm trigger
+  247  udevcontrol
+  248  udevadm control --reload-rules
+  249  ./install_udev_firmware.sh
+  250  sudo fxload -v -D /proc/bus/usb/004/065 -I LbtyUsb8051.hex -t fx2 -s a3load.hex
+  251  cd ../src
+  252  lss
+  253  ls
+  254  make
+  255  yum innstall libusb111
+  256  yum innstall libusb1
+  257  yum install libusb1
+  258  make
+  259  yum search libusb1
+  260  yum search libusb
+  261  yum install libusb-dev
+  262  yum install gtk+3
+  263  yum search gtk+3
+  264  yum search al
+  265  yum install libdbusmenu-gtk3.i686 
+  266  make
+  267  yum install libusb-dev
+  268  yum search all  libusb-dev
+  269  make
+  270  yum install libusb-dev
+  271  yum install libusb-devel
+  272  yum search all  libusb-dev
+  273  yum install libusb-devel.i686
+  274  yum remove libdbusmenu-gtk3.i686
+  275  yum list
+  276  make
+  277  yum ls
+  278  yum list | grep fxload
+  279  systemctl restart systemd-udevd.service
+  280  systemctl status systemd-udevd.service
+  281  systemctl restart systemd-udevd.service
+  282  systemctl status systemd-udevd.service
+  283  systemctl restart systemd-udevd.service
+  284  systemctl status systemd-udevd.service
+  285  systemctl restart systemd-udevd.service
+  286  systemctl status systemd-udevd.service
+  287  ./liberty
+  288  ./liberty2
+  289  /home01/student/j13024019/LibertyInstall/polhemusliberty-1.0.0/firmware_load/install_udev_firmware.sh 
+  290  cd ../firmware_load/
+  291  ls
+  292  cat ./install_udev_firmware.sh 
+  293  ./install_udev_firmware.sh 
+  294  cd ../src/
+  295  ./liberty
+  296  make
+  297  rm ./liberty
+  298  ls
+  299  make
+  300  systemctl restart systemd-udevd.service
+  301  systemctl status systemd-udevd.service
+  302  dpkg
+  303  yum search dpkg
+  304  cat /etc/udev/rules.d/
+  305  cat /etc/udev/rules.d/70-polhemus.rules 
+  306  systemctl status systemd-udevd.service
+  307  systemctl restart systemd-udevd.service
+  308  systemctl status systemd-udevd.service
+  309  udevadm control --reload-rules
+  310  systemctl status systemd-udevd.service
+  311  systemctl restart systemd-udevd.service
+  312  systemctl status systemd-udevd.service
+  313  cd ../firmware_load/
+  314  ls
+  315  cd ../firmware_load/
+  316  ls
+  317  ./install_udev_firmware.sh 
+  318  cd ../src/
+  319  make clean
+  320  make
+  321  systemctl restart systemd-udevd.service
+  322  systemctl status systemd-udevd.service
+  323  ./liberty 
+  324  cd ../../LibertyServer/
+  325  ls
+  326  cat Makefile 
+  327  make
+  328  make clean
+  329  make
+  330  ls
+  331  cd ~
+  332  ls
+  333  pwd
+  334  cd /home01/student/j13024019/LibertyInstall/
+  335  ls
+  336  cd libusb-1.0.0/
+  337  ls
+  338  ./configure 
+  339  make install
+  340  ldconfig
+  341  cd ../LibertyServer/
+  342  ls
+  343  make
+  344  make clean
+  345  make
+  346  ls /usr/local/share/PolhemusUsb/PiTrkPerm
+  347  ls /usr/local/share/PolhemusUsb/
+  348  ls
+  349  mv ./server /usr/local/bin/
+  350  systemctl restart systemd-udevd.service
+  351  systemctl status systemd-udevd.service
+  352  server
+  353  ip -a
+  354  ip a
+  355  server
+  356  systemctl status firewalld
+  357  systemctl stop firewalld
+  358  server
+  359  yum install git
+  360  pwd
+  361  cd ../
+  362  mkdir Liberty
+  363  cd Liberty
+  364  ls
+  365  git clone https://github.com/vrtheaterenvironment/Liberty.git
+  366  cd ..
+  367  ls
+  368  rm -r Liberty
+  369  ls
+  370  rm -rf Liberty
+  371  ls
+  372  exit
+  373  ls
+  374  cp LibertyServer.tar.gz ./Liberty
+  375  cp libusb-1.0.0.tar.bz2 ./Liberty
+  376  cp polhemusliberty-1.0.0.tar.gz ./Liberty
+  377  cd ./Liberty
+  378  ls
+  379  git status
+  380  git add LibertyServer.tar.gz
+  381  git add libusb-1.0.0.tar.bz2  polhemusliberty-1.0.0.tar.gz
+  382  git status
+  383  git commit -m "added original files"
+  384  git push
+  385  git config --global
+  386  systemctl restart systemd-udevd.service
+  387  systemctl status systemd-udevd.service
+  388  ./server
+  389  server
+  390  cd ..
+  391  ls
+  392  cd polhemusliberty-1.0.0/
+  393  ls
+  394  cd firmware_load/
+  395  ls
+  396  ./install_udev_firmware.sh 
+  397  systemctl restart systemd-udevd.service
+  398  systemctl status systemd-udevd.service
+  399  server
+  400  systemctl restart systemd-udevd.service
+  401  systemctl status systemd-udevd.service
+  402  server
+  403  history
+  404  history | grep yum
+  405  history | grep yum install
+  406  history | grep "yum install"
+  407  history -n 200| grep "yum install"
+  408  history -n 200
+  409  history
+  410    cd ../
+  411  cd ..
+  412  ls
+  413  history > history.txt
