@@ -24,6 +24,7 @@
 1. `cd ../src`
 1. main.c に `#include <stdint.h>`を追加
 1. `make`
+1. Libertyが接続されていることを確認
 1. `./liberty`で値を取れることを確認
 
 ## libusb-1.0.0のコンパイル
