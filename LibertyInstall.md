@@ -33,7 +33,7 @@
 1. `tar xzvf LibertyServer.tar.gz`
 1. `cd LiberyServer`
 1. `make`
-1. `mv ./server /usr/local/bin/
+1. `mv ./server /usr/local/bin/`
 
 ## LibertyServerの実行
 1. `systemctl stop firewalld`
