@@ -1,7 +1,7 @@
 # Liberty サーバーのインストール
 
 ## Driverのダウンロード
-1. tar xzvf polhemusliberty-1.0.0.tar.gz
+1. `tar xzvf polhemusliberty-1.0.0.tar.gz`
     - https://sourceforge.net/projects/polhemuslilberty/ からダウンロードできる
 
 1. `yum install libusb-devel`
