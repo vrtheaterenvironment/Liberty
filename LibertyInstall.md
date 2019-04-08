@@ -5,8 +5,7 @@
 ## Driverのダウンロード
 1. `tar xzvf polhemusliberty-1.0.0.tar.gz`
     - https://sourceforge.net/projects/polhemuslilberty/ からダウンロードできる
-
-1. `yum install libusb-devel`
+    
 1. `cd polhemusliberty-1.0.0/firmware_load/`
 1. ルールファイルを書き換える
     - `BUS` → `SUBSYSTEM`
@@ -19,6 +18,9 @@
 1. `systemctl status systemd-udevd.service`
 
 ## Libertyのコンパイル
+1. `yum install libusb-devel`
+    - `#include <usb.h>`のため
+    
 1. `cd ../src`
 1. main.c に `#include <stdint.h>`を追加
 1. `make`
