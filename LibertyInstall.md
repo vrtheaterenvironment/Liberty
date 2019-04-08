@@ -36,7 +36,7 @@
 
 ## LibertyServerのインストール
 1. `tar xzvf LibertyServer.tar.gz`
-1. `cd LiberyServer`
+1. `cd LibertyServer`
 1. `make`
 1. `mv ./server /usr/local/bin/`
 
