@@ -30,7 +30,7 @@
 ## libusb-1.0.0のコンパイル
 1. `tar xjvf libusb-1.0.0.tar.bz2`
 1. `cd libusb-1.0.0`
-1. `.configure`
+1. `./configure`
 1. `make install`
 1. `ldconfig`
 
