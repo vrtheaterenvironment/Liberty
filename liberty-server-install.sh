@@ -7,7 +7,7 @@
 ## ダウンロード
 
 cd ~
-yum install git
+yum install git libusb-devel -y
 git clone https://github.com/vrtheaterenvironment/Liberty.git
 
 ## インストール
@@ -22,7 +22,6 @@ systemctl status systemd-udevd.service
 ### Liberty
 
 cd ~/Liberty/polhemusliberty-1.0.0/src/
-yum install libusb-devel
 make
 
 ### libusb-1.0.0
