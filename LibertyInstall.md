@@ -4,7 +4,7 @@
 
 ## Driverのダウンロード
 1. `tar xzvf polhemusliberty-1.0.0.tar.gz`
-    - https://sourceforge.net/projects/polhemuslilberty/ からダウンロードできる
+    - https://sourceforge.net/projects/polhemusliberty/files/latest/download からダウンロードできる
     
 1. `cd polhemusliberty-1.0.0/firmware_load/`
 1. ルールファイルを書き換える
