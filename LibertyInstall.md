@@ -1,9 +1,12 @@
 # Liberty サーバーのインストール
 
 ```sh
+su
+```
+
+```sh
 cd ~
 git clone https://github.com/vrtheaterenvironment/Liberty.git
-su
 ```
 
 ## インストール
