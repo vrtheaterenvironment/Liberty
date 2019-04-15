@@ -52,7 +52,7 @@ mv ./server /usr/local/bin/
 ### Libertyの実行（ドライバの動作確認）
 
 ```sh
-~Liberty/polhemusliberty-1.0.0/src/liberty
+~/Liberty/polhemusliberty-1.0.0/src/liberty
 ```
 
 ### LibertyServerの実行
