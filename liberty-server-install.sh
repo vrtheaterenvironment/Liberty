@@ -15,7 +15,7 @@ git clone https://github.com/vrtheaterenvironment/Liberty.git
 ### LibertyのDriver
 
 cd ~/Liberty/polhemusliberty-1.0.0/firmware_load/
-.install_udev_firmware.sh
+./install_udev_firmware.sh
 systemctl restart systemd-udevd.service
 systemctl status systemd-udevd.service
 
