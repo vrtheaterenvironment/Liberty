@@ -4,6 +4,8 @@
 su
 ```
 
+## ダウンロード
+
 ```sh
 cd ~
 git clone https://github.com/vrtheaterenvironment/Liberty.git
