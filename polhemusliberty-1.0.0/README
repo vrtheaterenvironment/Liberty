@@ -1,0 +1,52 @@
+
+Polhemus Liberty (v2) (tm) Motion Tracker driver for Linux
+
+This driver supports the Polhemus Liberty v2 using its USB2 interface to
+transmit tracking data at 240Hz.
+
+Please find new releases at Sourceforge:
+https://sourceforge.net/projects/polhemusliberty/
+
+This driver has two parts: 
+ - Firmware loader (scripts for udev and the firmware)
+ - A library based on libUSB that communicates with the motion tracker
+
+
+Dependencies:
+ - fxload  (to load the firmware onto the USB device)
+ - libusb-dev  (userspace USB programming library development files
+   Library for programming USB applications without the knowledge
+   of Linux kernel internals.)
+
+In Debian GNU/Linux, simply install them by typing:
+    sudo apt-get install fxload libusb-dev
+
+
+Follow the instructions in the firmware_load directory to install the udev
+configuration files, and firmware files.  Then run make in the 'src'
+directory.  Execute the program:
+
+./liberty2
+
+It should detect the motion tracker, how many sensors are attached to it,
+and start printing the position/orientation data to stdout
+
+To record to a file, the following is enough:
+
+./liberty2 > motion_recording.txt
+
+Note: Connect the first sensor to input #1, and the rest to the following
+inputs.  Do not leave a sensor input empty in between.  For example, for
+three sensors, use inputs #1, #2, #3, and not #1, #2, #5.
+
+If you wish to make your own programs, you can use liberty.c and liberty.h,
+as they handle all the low level communication to the Polhemus Liberty v2
+(tm) device and offer a nice API.
+
+We developed this driver as a part of the Cognition for Technical Systems
+(CoTeSys) project (http://www.cotesys.org), working at the Technische
+Universitaet Muenchen, at the chair for intelligent autonomous systems
+(http://www9.cs.tum.edu).  Collaborators: Alexis Maldonado, Federico Ruiz,
+Jonathan Kleinehellefort, and Ingo Kresse, under the supervision of Prof. 
+Michael Beetz, PhD.
+
