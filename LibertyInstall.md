@@ -8,7 +8,7 @@ su
 
 ```sh
 cd ~
-yum install get
+yum install git
 git clone https://github.com/vrtheaterenvironment/Liberty.git
 ```
 
