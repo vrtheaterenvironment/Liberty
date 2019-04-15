@@ -2,11 +2,12 @@
 
 # Liberty サーバーのインストール
 
+# su
+
 ## ダウンロード
 
 cd ~
 git clone https://github.com/vrtheaterenvironment/Liberty.git
-su
 
 ## インストール
 
