@@ -7,6 +7,7 @@
 ## ダウンロード
 
 cd ~
+yum install git
 git clone https://github.com/vrtheaterenvironment/Liberty.git
 
 ## インストール
